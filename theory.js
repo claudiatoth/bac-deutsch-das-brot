@@ -4,7 +4,7 @@
 // Conținut în germană; note de strategie scurte în RO.
 // Nachkriegsliteratur / Trümmerliteratur — Kurzgeschichte (Charakterisierung).
 // Schlüsselzitate verbatim verifiziert (gemeinfrei, Borchert d.1947 → PD seit 2018).
-// Subiect-I-Gedicht „Ein Winterabend" (Trakl) verbatim verifiziert (gemeinfrei, Trakl d.1914).
+// Prüfungsteil-I-Gedicht „Ein Winterabend" (Trakl) verbatim verifiziert (gemeinfrei, Trakl d.1914).
 // ============================================
 
 const theoryHTML = `
@@ -306,10 +306,10 @@ const trainingHTML = `
         <div class="muster-antwort" id="m10">Weil es die <strong>Nachkriegsrealität</strong> zeigt: <strong>Hunger, Not und Entbehrung</strong> um 1946. Stilistisch ist es <strong>Kahlschlag</strong> — nüchterne, karge <strong>Alltagssprache</strong>, knappe Sätze, <strong>Aussparung</strong>. Statt großer Worte ein kleiner, wahrer Moment der <strong>Menschlichkeit</strong> — genau das Anliegen der Trümmerliteratur.</div>
     </div>
 
-    <h4 style="color:#065f46; margin:22px 0 8px;">✍️ Schreibvorlagen — Struktur für jedes Subiect</h4>
+    <h4 style="color:#065f46; margin:22px 0 8px;">✍️ Schreibvorlagen — Struktur für jeden Prüfungsteil</h4>
 
     <div class="vorlage">
-        <h5>A) Charakterisierung (Subiect II) — Einleitung / Hauptteil / Schluss</h5>
+        <h5>A) Charakterisierung (Prüfungsteil II) — Einleitung / Hauptteil / Schluss</h5>
         <div class="teil">Einleitung:</div>
         <p class="redemittel">„In der Kurzgeschichte <em>Das Brot</em> (1946) von Wolfgang Borchert spielt die Figur des/der … eine zentrale Rolle."</p>
         <div class="teil">Hauptteil (Redemittel):</div>
@@ -336,7 +336,7 @@ const trainingHTML = `
         <p class="redemittel">Schluss: „Abschließend vertrete ich die Auffassung, dass …, weil …"</p>
     </div>
 
-    <div class="strategie">La Subiect II structura aduce 5 puncte: Einleitung (Werk/Autor/Jahr/Gattung) · Hauptteil cu Belege (scene) · Schluss cu deutung. Leagă de teme (Not / Lüge aus Liebe / Opfer)!</div>
+    <div class="strategie">La Prüfungsteil II structura aduce 5 puncte: Einleitung (Werk/Autor/Jahr/Gattung) · Hauptteil cu Belege (scene) · Schluss cu deutung. Leagă de teme (Not / Lüge aus Liebe / Opfer)!</div>
 `;
 
 // ============================================

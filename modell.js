@@ -1,10 +1,10 @@
 // ============================================
 // MODELL-PRÜFUNG — Das Brot (BAC germană maternă)
-// Claudia Toth · Subiect I + II + III rezolvate complet
+// Claudia Toth · Prüfungsteil I + II + III rezolvate complet
 // „Versuch zuerst selbst → dann aufdecken". Galben = zu merken. 🏅 = warum 10p.
 // Reutilizează toggleMuster() din theory.js.
-// Subiect I: Georg Trakl „Ein Winterabend" — verbatim verifiziert (gemeinfrei, Trakl d.1914).
-// Subiect II: Charakterisierung der Frau (Borchert, Das Brot) — opera studiată.
+// Prüfungsteil I: Georg Trakl „Ein Winterabend" — verbatim verifiziert (gemeinfrei, Trakl d.1914).
+// Prüfungsteil II: Charakterisierung der Frau (Borchert, Das Brot) — opera studiată.
 // ============================================
 
 const modellHTML = `
@@ -12,13 +12,13 @@ const modellHTML = `
         <img src="images/annette.png" alt="Claudia" class="claudia-note-avatar">
         <div class="claudia-note-content">
             <div class="speaker">Claudia erklärt</div>
-            <div class="text">Aici ai o <strong>probă BAC completă</strong> (Subiect I + II + III), rezolvată integral. La <strong>Subiect I</strong> ai „Ein Winterabend" de Trakl — poemul-pereche perfect: același simbol, <strong>das Brot</strong>, dar la Trakl „Brot und Wein" = <strong>Geborgenheit &amp; Gnade</strong> pe masa pusă, iar la Borchert pâinea = <strong>Not, Lüge und Liebe</strong>. La <strong>Subiect II</strong> ai o Charakterisierung completă a <strong>Frau</strong>-ei. <strong>Încearcă întâi singur</strong>, apoi dezvăluie. Ce e <span class="merken">galben</span> merită memorat.</div>
+            <div class="text">Aici ai o <strong>probă BAC completă</strong> (Prüfungsteil I + II + III), rezolvată integral. La <strong>Prüfungsteil I</strong> ai „Ein Winterabend" de Trakl — poemul-pereche perfect: același simbol, <strong>das Brot</strong>, dar la Trakl „Brot und Wein" = <strong>Geborgenheit &amp; Gnade</strong> pe masa pusă, iar la Borchert pâinea = <strong>Not, Lüge und Liebe</strong>. La <strong>Prüfungsteil II</strong> ai o Charakterisierung completă a <strong>Frau</strong>-ei. <strong>Încearcă întâi singur</strong>, apoi dezvăluie. Ce e <span class="merken">galben</span> merită memorat.</div>
         </div>
     </div>
-    <div class="strategie">Subiect II (Charakterisierung pe opera studiată) se învață și aduce nota. La Subiect I textul e necunoscut → memorezi METODA. La III memorezi tiparul scrisorii.</div>
+    <div class="strategie">Prüfungsteil II (Charakterisierung pe opera studiată) se învață și aduce nota. La Prüfungsteil I textul e necunoscut → memorezi METODA. La III memorezi tiparul scrisorii.</div>
 
     <!-- ================= SUBIECT I ================= -->
-    <div class="modell-aufgabe"><span class="punkte">30 Punkte</span><h4 style="margin:0;">📄 Subiect I — Textinterpretation</h4></div>
+    <div class="modell-aufgabe"><span class="punkte">30 Punkte</span><h4 style="margin:0;">📄 Prüfungsteil I — Textinterpretation</h4></div>
     <p>Lesen Sie das Gedicht und bearbeiten Sie die Aufgaben.</p>
     <div class="gedicht">
         <span class="titel">Georg Trakl: Ein Winterabend (1913)</span>
@@ -65,7 +65,7 @@ const modellHTML = `
     </div>
 
     <!-- ================= SUBIECT II ================= -->
-    <div class="modell-aufgabe"><span class="punkte">30 Punkte</span><h4 style="margin:0;">📝 Subiect II — Charakterisierung (die Frau)</h4></div>
+    <div class="modell-aufgabe"><span class="punkte">30 Punkte</span><h4 style="margin:0;">📝 Prüfungsteil II — Charakterisierung (die Frau)</h4></div>
     <p><strong>Aufgabe:</strong> Charakterisieren Sie die Figur der <em>Frau</em> aus Wolfgang Borcherts „Das Brot". Gehen Sie auf soziale Stellung, Charakterzüge, Verhalten/Entwicklung und Beziehung ein.</p>
     <button class="muster-btn" onclick="toggleMuster('s2')">🔓 Muster-Charakterisierung aufdecken</button>
     <div class="muster-antwort" id="s2">
@@ -85,7 +85,7 @@ const modellHTML = `
     </div>
 
     <!-- ================= SUBIECT III ================= -->
-    <div class="modell-aufgabe"><span class="punkte">30 Punkte</span><h4 style="margin:0;">✉️ Subiect III — Bewerbungsbrief</h4></div>
+    <div class="modell-aufgabe"><span class="punkte">30 Punkte</span><h4 style="margin:0;">✉️ Prüfungsteil III — Bewerbungsbrief</h4></div>
     <p><strong>Aufgabe:</strong> Sie heißen Anna Marin und bewerben sich auf eine Anzeige der <em>Bäckerei-Konditorei „Zum goldenen Korn"</em> um einen Ferienjob als Aushilfe im Verkauf. Schreiben Sie einen vollständigen Bewerbungsbrief.</p>
     <button class="muster-btn" onclick="toggleMuster('s3')">🔓 Muster-Bewerbung aufdecken</button>
     <div class="muster-antwort" id="s3">

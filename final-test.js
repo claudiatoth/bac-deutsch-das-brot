@@ -30,7 +30,7 @@ const finalTestData = [
     { type: 'multiple', category: '💡 Deutung', question: 'Was bedeutet „die Lüge aus Liebe"?', options: ['ein böser Betrug', 'die Frau schont die Würde des Mannes', 'ein Missverständnis', 'ein Scherz'], correct: 'die Frau schont die Würde des Mannes', explanation: 'Sie lügt mit („Ich hab auch was gehört"), um ihn nicht zu beschämen.' },
 
     // ✍️ Schreiben (1)
-    { type: 'multiple', category: '✍️ Schreiben', question: 'Welches Element des Bewerbungsbriefs (Subiect III) bringt 2 Punkte?', options: ['die Unterschrift', 'die Betreffzeile', 'das Datum', 'die Anlagen'], correct: 'die Betreffzeile', explanation: 'Betreffzeile (2 P) und Anrede (2 P) sind die punktstärksten Pflicht-Elemente.' }
+    { type: 'multiple', category: '✍️ Schreiben', question: 'Welches Element des Bewerbungsbriefs (Prüfungsteil III) bringt 2 Punkte?', options: ['die Unterschrift', 'die Betreffzeile', 'das Datum', 'die Anlagen'], correct: 'die Betreffzeile', explanation: 'Betreffzeile (2 P) und Anrede (2 P) sind die punktstärksten Pflicht-Elemente.' }
 ];
 
 let currentQuestionIndex = 0;
